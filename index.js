@@ -59,11 +59,43 @@ let nom="Dancil"
 let texteAffichage = "Bonjour " + nom + ", votre film " + ticket.nomFilm + " est en salle " +ticket.numeroSalle
 
 console.log(texteAffichage)
+let nouveauFilm = "Titanic"
+const listeFilms= ["danc","nono",nouveauFilm]
+listeFilms.push("ajouter un mot")
+listeFilms.pop() 
+console.log(listeFilms)
+let hhhh = "tiktok"
+const listhhhh=["bonjour",hhhh]
+console .log(listhhhh[0])
+let monTapeOK = true
+if (monTapeOK) {
+  console.log("bravo,vous avez correctez")
+} else{
+  console.log("echec,n'est pas correcter")
+}
+let monTapeNon =false
+if(monTapeNon) {
+  console.log("echec,les reponses sont fausses")
+}
+else {
+  console.log("c'est faux")
+}
+ let TousEstLa = false
+ if(TousEstLa) {
+  console.log("vrai,tous vous etez ici")
+ }
+else{
+  console.log("tous ne sont pas ici il ya les abscent")
+}
 
+const TousEstL= true
+if(TousEstL) {
+  console.log("bravoooo")
+}
+ else{
+  console.log("mouvais")
+ }
 
-
-
-   
 
 
 
