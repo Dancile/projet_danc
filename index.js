@@ -146,24 +146,58 @@ console.log(compteur)
   {
     console.log(ordinateur)
   }
-  let i = 1
-  while ( i>= 5) {
-   console.log(i)
-   i++;
+  let compteur = 0;
+  while (compteur > 15) {
+    console.log("ceci un message repete.");
+    compteur++;
   }
-  let mot = prompt("ecrivez ok")
-  while(mot !== "ok") {
-    mot = prompt("ecrivez ok")
+  let n = 4;
+  while(n == 8) {
+    console.log("afficher le nombre");
+    n++; }
+
+
+const listeMots = ["intelligence","artificiel","nationalite"]
+let score = 2
+for(let i = 0; i < listeMots; i++) {
+  let nomUtilisateur = ("Entrez le mot " + listeMots[i])
+  if (nomUtilisateur === listeMots[i]) {
+    score++
   }
-console.log("vous avez ecrit ok !")
+   
+}
+console.log("votre score est de  " + score + "sur 3")
 
 
+const listeMenage = ["menage1","menage2","menage3"]
+let maison = 15
+for(let i = 0; i<listeMenage; i++) {
+  let nomUtilisateur = ("Entrez le mot " + listeMenage[i])
+  if(nomUtilisateur && listeMenage[i]) {
+    maison
+  }
+}
+console.log("votre menage est de " + maison + "menage" )
 
-
+ const listeFruits =  ["mangue","avocat", "pastec"]
+ let fruits = 100
+ for(let i = 0; i<listeFruits.length; i++)
+ {
+  let nomUtilisateur = ("Entrez le nombre " + listeFruits[i])
+  if(nomUtilisateur !== listeFruits) {
+    fruits++
+  }
+ }
+ console.log("afficher le nombre de fruits " + fruits + "fruits" )
+ const sommFrancs = ["centsmille","million","milliard"]
+ let somme = 10000000
+ for(let i=0; i < sommFrancs.length; i++) {
+  let nomUtilisateur = ("Ecrit le somme " + sommFrancs[i])
+  if(nomUtilisateur % sommFrancs[i]) {
+    somme++
+  }
+ }
+ console.log(" On gagnez  " + somme + " francs")
 
 
  
-
-
-
-
