@@ -95,7 +95,67 @@ if(TousEstL) {
  else{
   console.log("mouvais")
  }
+ 
+let jours = "mardi";
+switch (jours) {
+  case "lundi":
+    console.log("aujourd 'hui c'est lundi.");
+    break;
+    case "mardi":
+      console.log("aujour'hui c'est mardi.");
+      break;
 
+      case "mercredi":
+        console.log("aujourd'hui c'est mercredi.");
+         break;
+    }
+    const mois = "decembre";
+    switch (mois) {
+      case "novembre":
+        console.log("aujourd'hui c'est novembre.");
+        break;
+        case "octoble":
+          console.log("aujourd'hui c'est octoble.");
+          break;
+          case "decembre":
+            console.log("aujourd'hui c,est decembre.");
+            break;
+    }
+ let age = 25;
+ let aUnPermis = true;
+ if(age >= 18 && aUnPermis) {
+  console.log("vous pouvez permis.");
+
+ }
+ else{
+  console.log("ne vous pouvez pas permis.");
+ }
+ let agee = 30;
+ let aMajeur = false;
+if (agee <= 20 && aMajeur) {
+  console.log("vous pouvez aussi majeur.");
+
+}
+  else{
+    console.log("ne vous pouvez pas majeur.");
+  } 
+  for (let compteur = 0 ; compteur < 5; compteur++) {
+console.log(compteur)
+  }
+  for (let ordinateur = 0 ; ordinateur <10 ; ordinateur++)
+  {
+    console.log(ordinateur)
+  }
+  let i = 1
+  while ( i>= 5) {
+   console.log(i)
+   i++;
+  }
+  let mot = prompt("ecrivez ok")
+  while(mot !== "ok") {
+    mot = prompt("ecrivez ok")
+  }
+console.log("vous avez ecrit ok !")
 
 
 
