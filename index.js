@@ -199,5 +199,41 @@ console.log("votre menage est de " + maison + "menage" )
  }
  console.log(" On gagnez  " + somme + " francs")
 
+ function entreLeMessage(Bonjour, eleves) {
+  let message = "Afficher le message " + Bonjour+ "sur" +eleves
+  return(message);
+ }
+ let retourMessage = entreLeMessage(4,5)
+ console.log(retourMessage)
 
- 
+ function EntreLeNbre(score,nbr) {
+  let multiplication = "la multiplication est de " + score + "*" + nbr
+return(multiplication)
+ }
+ let returnMultiplication= EntreLeNbre(4,9)
+ console.log(returnMultiplication)
+ let baliseZoneProposition = document.getElementById("zoneProposition");
+console.log(baliseZoneProposition);
+let baliseZonePropositionSpan = document.querySelector("#zoneProposition span");
+console.log(baliseZonePropositionSpan);
+
+let listeInputRadio = document.querySelectorAll(".zoneChoix input");
+console.log(listeInputRadio);
+
+
+for (let i = 0; i < listeInputRadio.length; i++) {
+  console.log(listeInputRadio[i]);
+}
+let baliseDivJeu = document.getElementById("baliseDivJeu");
+console.log(divJeu)
+
+let h2 = document.querySelector("#divJeu h2");
+console.log(h2)
+let autreDiv = document.getElementById("autreDiv")
+console.log(autreDiv)  
+let h3=document.querySelector("#baliseAutreJeu h3")
+console.log(h3)
+for(let i = 0; i < listeh3.length; i++)
+{
+  console.log(liste[i])
+}
