@@ -233,7 +233,3 @@ let autreDiv = document.getElementById("autreDiv")
 console.log(autreDiv)  
 let h3=document.querySelector("#baliseAutreJeu h3")
 console.log(h3)
-for(let i = 0; i < listeh3.length; i++)
-{
-  console.log(liste[i])
-}
