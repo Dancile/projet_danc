@@ -233,3 +233,30 @@ let autreDiv = document.getElementById("autreDiv")
 console.log(autreDiv)  
 let h3=document.querySelector("#baliseAutreJeu h3")
 console.log(h3)
+
+let image=document.getElementById("fleur1")
+
+image.src = "image/tournesol.jfif"
+
+let titrePage  = "titreDeMaPageWeb"
+let h1 = document.getElementById("h1")
+
+let body=document.querySelector("body")
+
+
+
+monButton.addEventListener("click",() => {
+  let body = document.querySelector("body")
+  body.style.backgroundcolor="red"
+});
+
+button.addEventListener("click",() => {
+  let body = document.querySelector("body")
+  body.style.backgroundcolor="red"
+});
+let listeButton = document.querySelectorAll("button")
+let listeActuel=0;
+for(let i=0; i< listeButton.length;i++) {
+  let buttonActuel= listeButton[i]
+  console.log(listeActuel)
+}
