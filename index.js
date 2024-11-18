@@ -205,31 +205,29 @@ console.log("votre menage est de " + maison + "menage" )
  }
  let retourMessage = entreLeMessage(4,5)
  console.log(retourMessage)
+ 
+let chaine = "premier chaine";
+let nouvelleChaine="affiche les chaine: " + chaine + ". voila le contenu ";
+ console.log(nouvelleChaine);
 
- function EntreLeNbre(score,nbr) {
-  let multiplication = "la multiplication est de " + score + "*" + nbr
-return(multiplication)
- }
- let returnMultiplication= EntreLeNbre(4,9)
- console.log(returnMultiplication)
- let baliseZoneProposition = document.getElementById("zoneProposition");
-console.log(baliseZoneProposition);
-let baliseZonePropositionSpan = document.querySelector("#zoneProposition span");
-console.log(baliseZonePropositionSpan);
+ let chaine2 = "voila deuxieme chaine";
+ let nouvelleChaine2 = "Autre deuxieme chaine: " + chaine2 + ".c'esl la deuxieme chaine";
+ console.log(nouvelleChaine2);
+ const addition= (a,b) => {
+  console.log(a+b);
+ };
+ addition(3, 4)
+ let multiplication =(a,b) =>{
+  console.log(a*b);
 
-let listeInputRadio = document.querySelectorAll(".zoneChoix input");
-console.log(listeInputRadio);
+ };
+ multiplication(5,5);
 
+ 
+addition(45,5);
 
-for (let i = 0; i < listeInputRadio.length; i++) {
-  console.log(listeInputRadio[i]);
+function add2() {
+  let a = 4;
+  console.log(a+2);
 }
-let baliseDivJeu = document.getElementById("baliseDivJeu");
-console.log(divJeu)
-
-let h2 = document.querySelector("#divJeu h2");
-console.log(h2)
-let autreDiv = document.getElementById("autreDiv")
-console.log(autreDiv)  
-let h3=document.querySelector("#baliseAutreJeu h3")
-console.log(h3)
+add2();
